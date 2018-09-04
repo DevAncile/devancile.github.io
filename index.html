@@ -4,7 +4,7 @@
 <title>Resume</title>
 <meta charset="utf-8">
 <style>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link href="stylesheet.css" type="text/css" rel="stylesheet" />
 </style>
 </head>
 <body>
@@ -12,25 +12,26 @@
   <a href="https://www.linkedin.com/in/matthew-flynn-41229210/">Matt's LinkedIn Profile</a>
   <a href="#">Link</a>
   <a href="#">Link</a>
-</div>
+  </div>
 
 <div class="content">
     <h1>Matt</h1>
   <h1>Contents</h1>
-<table style="width:100%">
+<div >
+<table id="table">
   <tr>
 	<th><a href = "#experience">Experience</a></th>
     <th><a href = "#education">Education</a></th> 
     <th><a href = "#honors">Honors</a></th>
-    <th><a href = "#skilss">Skills</a></th> 
+    <th><a href = "#skills">Skills</a></th> 
     <th><a href = "#extracur">Extracurriculars</a></th>
   </tr>
 </table>
+</div>
  <br>
   <br>
-  <p>
-  </p>
-  <h2 class="head">Professional Experience</h2>
+ 
+ <h2 class="head">Professional Experience</h2>
  <div>		
 	<ul style="list-style: none;">
 	<li><em>Technology Analyst</em></li>
@@ -294,17 +295,18 @@ managers from different departments to gather SharePoint Success stories    <str
 </li>
 		</ul>
    
-  <h2 class="head">Education</h2>
-  <ul id="education"; style="list-style: none;">
+  <h2 class="head"; id="education">Education</h2>
+ <!-- <ul id="education"; style="list-style: none;">
     <a href="https://uncw.edu/">
       <li>UNCW</li>
     </a>
-    <!--Link-->
+    
     <a href="https://uncw.edu//">
       <li>UNCW</li>
-    </a>
-    <li>Codeacademy</li>
-	  <li>
+    </a> 
+    <li>Codeacademy</li> 
+	  <li> -->
+	  
 	  <div>
 	  <ul style="list-style: none;">
 	  <li>International Business School Alliance</li>
@@ -313,10 +315,10 @@ managers from different departments to gather SharePoint Success stories    <str
 	  <li>MBA – International Supply Chain and Logistics – 2013; GPA 3.7 
 	  (Magna Cum Laude)</li>
 	  </ul>
-
 	  </div>
-	  <div>
+
 	  
+	  <div>
 	  <ul style="list-style: none;">
 	  <li>University of North Carolina Wilmington</li>
 	  <li>Cameron School of Business,BS in 
@@ -329,32 +331,26 @@ managers from different departments to gather SharePoint Success stories    <str
  	 
   <h2 class="head">Honors</h2>
   <ul id="honors">
-    <li>
-	<p>International 
-	MBA-Student Award for Highest Achievement (International Logistics and 
-	Supply Chain Management) - 2013</p>
-	<p>Kappa Sigma National Scholarship-Leadership Awards - 2006 &amp; 2007</p>
-	<p>Psi Chi Psychology Honors Society, Order of Omega Honors Fraternity, 
-	Gamma Sigma Alpha Honors Fraternity</p>
-	<p>Dean’s List – UNCW</p>
-	<p>UNCW Distinguished Service Award</p>
-	<p>Eagle Scout</p>
-	  </li>
-	  <li>Technology Analyst</li>
-    <li>EDI Coordinator</li>
-  </ul>
-  <p class="head">Extracurriculars</p>
-  <ul>
-    <li>Sustainability</li>
-	<li>Philosophy</li>
-    <li>Politics</li>
-  </ul>
-  <h2 class="head">Skills</h2>
-  <ul id="skills">
-    <li>Technology Analyst</li>
-    <li>EDI Coordinator</li>
-  </ul>
-  <p class="head">Extracurriculars</p>
+    <li>International MBA-Student Award for Highest Achievement (International Logistics and Supply Chain Management) - 2013</li>
+	<li>Kappa Sigma National Scholarship-Leadership Awards - 2006 &amp; 2007</li>
+	<li>Psi Chi Psychology Honors Society, Order of Omega Honors Fraternity, 
+	Gamma Sigma Alpha Honors Fraternity</li>
+	<li>Dean’s List – UNCW</li>
+	<li>UNCW Distinguished Service Award</li>
+	<li>Eagle Scout</li>
+	  </ul>
+	  
+<h2 class="head">Skills</h2>
+<ul id="skills">
+<li>Strong leadership, communication and team-building skills</li>
+<li>Research and analytical skills</li>
+<li>HTML5, CSS, JavaScript and PHP</li>
+<li>Proficient in Microsoft Word, Excel (VBA, Solver), PowerPoint, Access, MS Project, Lingo.</li>
+<li>Knowledgeable in SQL functionalities, Six Sigma and Total Quality Management (TQM) techniques and procedures.</li>
+<li>Proven ability to work with dynamically diverse groups of people while earning an International MBA in Bremen, Germany alongside peers from ten different countries.</li>
+</ul>
+ 
+  <h2 class="head">Extracurriculars</h2>
   <ul id="extracur">
     <li>Sustainability</li>
 	<li>Philosophy</li>
