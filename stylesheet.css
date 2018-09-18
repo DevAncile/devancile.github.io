@@ -12,7 +12,7 @@
 
 .content{
 	color: white;
-	font-size: 75px;
+	
 }
 
 .footer{
@@ -38,6 +38,7 @@
 
 #tbl{
 	width: 100%;
+	font-size: 20px;
 }
 
 
