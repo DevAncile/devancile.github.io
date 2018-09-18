@@ -5,7 +5,7 @@
 	width: auto;
 	border-style: solid;
 	margin-right: 100px;
-	margin-left: 100px;
+	margin-left: 150px;
 
 	
 }
@@ -30,15 +30,15 @@
 	width: 80%;
 	border-style: solid;
 	margin-right: 100px;
-	margin-left: 100px;
+	margin-left: 150px;
 	
 	
 }
 
 
 #tbl{
-	width: 100%;
 	font-size: 30px;
+	width: 100%;
 }
 
 
