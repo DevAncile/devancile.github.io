@@ -1,20 +1,6 @@
 <style>
 
-#resume{
-	background-color:silver;
-	width: auto;
-	border-style: solid;
-	margin-right: 100px;
-	margin-left: 75px;
 
-	
-}
-
-.content{
-	color: white;
-	font-size: 40;
-	
-}
 
 .footer{
 	color: white;
@@ -26,28 +12,36 @@
 	padding: 10px;
 }
 
+.topnav{
+	
+}
+#content{
+	color: white;
+	width: 200px;
+
+}
 #resume{
 	background-color:silver;
 	width: 80%;
 	border-style: solid;
 	margin-right: 100px;
-	margin-left: 75px;
+	margin-left: 150px;
 	
 	
 }
 
 
 #tbl{
-	font-family:arial;
-	font-size: 20px;
 	width: 100%;
+	border-style: solid;
 }
-
 
 
 #tb{
-	background-color: black;
+	background-color: LightSlateGray;
 }
+
+
 
 
 </style>
