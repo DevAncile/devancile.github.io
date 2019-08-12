@@ -1,6 +1,9 @@
 <style>
 
-
+body{
+	margin: 1%;
+	border:solid;
+}
 
 .footer{
 	color: white;
