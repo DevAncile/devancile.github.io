@@ -1,8 +1,8 @@
 <style>
-
-body{
+#tb{
 	margin: 1%;
 	border:solid;
+	background-color: LightSlateGray;
 }
 
 .footer{
@@ -37,11 +37,6 @@ body{
 #tbl{
 	width: 100%;
 	border-style: solid;
-}
-
-
-#tb{
-	background-color: LightSlateGray;
 }
 
 
