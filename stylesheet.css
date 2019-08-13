@@ -1,10 +1,6 @@
 <style>
 body{
-background-color: grey;
-}
-
-.footer{
-	background-color: teal;
+background-color: blue;
 }
 
 .head{
@@ -12,6 +8,12 @@ background-color: grey;
 	color: white;
 	padding: 10px;
 }
+
+.footer{
+	background-color: teal;
+}
+
+
 .dropbtn {
     background-color: black;
     color: white;
