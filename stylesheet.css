@@ -1,6 +1,6 @@
 <style>
 body{
-	margin: 1%;
+	margin: 5%;
 	background-color: grey;
 
 }
@@ -73,7 +73,7 @@ body{
 	
 }
 #content{
-	background-color: grey;
+	color: black;
 	width: 200px;
 
 }
