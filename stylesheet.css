@@ -1,9 +1,21 @@
 <style>
 .resu{
-	margin: 50px;
+	
 	background-color: silver;
 
 }
+
+.header{
+  padding: 1%;
+  background: teal;
+  color: white;
+  font-size: 30px;
+  }
+  
+/*.headcontainer {
+	display:flex;
+	justify-content: space-between;
+}*/
 
 .head{
 	background-color: teal;
@@ -11,10 +23,10 @@
 	padding: 10px;
 }
 
-.footer{
-	background-color: teal;
+.bottomheadcontainer{
+	text-align: center;
+	clear:both;
 }
-
 
 .dropbtn {
     background-color: black;
@@ -25,7 +37,7 @@
 }
 
 .dropdown {
-    position: relative;
+    position: left;
     display: inline-block;
 }
 
@@ -69,9 +81,7 @@
 	border: solid;
 	
 }
-.topnav{
-	
-}
+
 #content{
 	color: black;
 	width: 200px;
@@ -79,14 +89,13 @@
 }
 
 
-
 #tbl{
 	width: 100%;
 	border-style: solid;
 }
 
-
-
+.footer{
+	background-color: teal;
+}
 
 </style>
-
